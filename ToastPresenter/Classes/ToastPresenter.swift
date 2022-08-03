@@ -6,6 +6,7 @@
 //  Copyright (c) 2022 FirstDo. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 @available(iOS 13.0, *)
@@ -122,4 +123,4 @@ public final class ToastView: UIView {
     }
 }
 
-
+#endif
