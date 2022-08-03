@@ -1,0 +1,16 @@
+PODS:
+  - ToastPresenter (0.1.0)
+
+DEPENDENCIES:
+  - ToastPresenter (from `../`)
+
+EXTERNAL SOURCES:
+  ToastPresenter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ToastPresenter: 7230a89ace9c127dff6bca0d0fb2b6f5f9376c91
+
+PODFILE CHECKSUM: 2305ee73f594c5ef71f67c0506ed02eaea039eca
+
+COCOAPODS: 1.11.3

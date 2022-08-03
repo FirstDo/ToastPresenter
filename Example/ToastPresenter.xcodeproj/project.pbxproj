@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		12F65A79C98B41165C9DA994 /* Pods_ToastPresenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToastPresenter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DE916D4640CCBC101252EB0 /* ToastPresenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ToastPresenter.podspec; path = ../ToastPresenter.podspec; sourceTree = "<group>"; };
+		4DE916D4640CCBC101252EB0 /* ToastPresenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ToastPresenter.podspec; path = ../ToastPresenter.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ToastPresenter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToastPresenter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6363B71FFB275EA46B961033 /* Pods-ToastPresenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToastPresenter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ToastPresenter_Tests/Pods-ToastPresenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7DC828221CA45B19DEA7FB5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7DC828221CA45B19DEA7FB5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8A1E6F05E4DAFD25EEABAD38 /* Pods-ToastPresenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToastPresenter_Example.release.xcconfig"; path = "Target Support Files/Pods-ToastPresenter_Example/Pods-ToastPresenter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9AB88A0EA1305C6F2048105C /* Pods_ToastPresenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToastPresenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F040E3B673818E85802CEC /* Pods-ToastPresenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToastPresenter_Tests.release.xcconfig"; path = "Target Support Files/Pods-ToastPresenter_Tests/Pods-ToastPresenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DD807FC14B5EAEE4AA106C36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DD807FC14B5EAEE4AA106C36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E22D5447B5D81AB7369A952E /* Pods-ToastPresenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToastPresenter_Example.debug.xcconfig"; path = "Target Support Files/Pods-ToastPresenter_Example/Pods-ToastPresenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				6363B71FFB275EA46B961033 /* Pods-ToastPresenter_Tests.debug.xcconfig */,
 				C7F040E3B673818E85802CEC /* Pods-ToastPresenter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ToastPresenter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ToastPresenter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
