@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ToastPresenter can help present ToastMessage on view
+You can use it declaratively! 
                        DESC
 
   s.homepage         = 'https://github.com/FirstDo/ToastPresenter'
@@ -31,7 +32,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'ToastPresenter/Classes/**/*'
-  
+  s.swift_versions = '5.0' 
   # s.resource_bundles = {
   #   'ToastPresenter' => ['ToastPresenter/Assets/*.png']
   # }
