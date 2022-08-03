@@ -7,18 +7,19 @@
 //
 
 import UIKit
+import ToastPresenter
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = .systemBackground
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func didTapToastButton(_ sender: UIButton) {
+        ToastView(message: "SimpleMessage")
+            .setImage(UIImage(systemName: "checkmark.circle.fill"))
+            .show(in: view, position: .bottom(constant: 30), holdingTime: 2, fadeAnimationDuration: 1)
     }
-
 }
 
